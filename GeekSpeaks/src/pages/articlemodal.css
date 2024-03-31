@@ -1,0 +1,75 @@
+.Amodal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  .Amodal-background .modal {
+    width: 800px;
+    background-color: snow;
+    padding: 20px;
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .Amodal-background h2 {
+    margin: 20px 0px;
+    text-align: center;
+    color: purple;
+  }
+  
+  .Amodal-background label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .Amodal-background input {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .Amodal-background textarea {
+    width: 95%;
+    max-width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .buttonbox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .buttonL {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .Amodal-background .close-button {
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 30px;
+    color: white;
+    background-color: #dc3545;
+  }
+  
+  .Amodal-background .close-button:hover {
+    background-color: #c82333;
+  }
+  
